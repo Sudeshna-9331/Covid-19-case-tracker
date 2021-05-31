@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.heading{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading h1{
+    text-align: center;
+    margin-bottom: 23px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: rgb(34, 36, 34);
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px  rgb(47, 48, 47);
+    background-color: rgb(212, 218, 212);
+}
+
+.section{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+      margin: 0 auto;   
+      max-width: 1170px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-column-gap: 2.5rem;
+      grid-row-gap: 2rem;
+     
+}
+.country{
+    width: 220px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.5rem auto;
+    background: ivory;
+   
+}
+
+.list-group{
+    height: 100%!important;
+    background-color: white;
+}
+strong{
+    padding-right: 6px;
+    font-size: 15px;
+}
+.list-group-item{
+
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.country_name{
+font-weight: bolder!important;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: rgb(3, 114, 114);
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.recovered{
+    color: green;
+}
+.deaths{
+    color: red;
+}
